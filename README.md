@@ -1,5 +1,4 @@
 # IsPrimeNumber JavaScript function
----
 
 ## Installation
 `npm install is-prime-number`
