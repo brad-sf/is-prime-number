@@ -1,6 +1,6 @@
 {
   "name": "is-prime-number",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns boolean of if provided number is prime.",
   "main": "index.js",
   "scripts": {
