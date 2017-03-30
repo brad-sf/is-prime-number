@@ -1,0 +1,23 @@
+{
+  "name": "is-prime-number",
+  "version": "1.0.0",
+  "description": "Returns boolean of if provided number is prime.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleyflood/is-prime-number.git"
+  },
+  "keywords": [
+    "prime",
+    "primality"
+  ],
+  "author": "Bradley Flood <bradley.flood@gmail.com> (https://bradleyflood.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradleyflood/is-prime-number/issues"
+  },
+  "homepage": "https://github.com/bradleyflood/is-prime-number#readme"
+}
