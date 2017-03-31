@@ -1,7 +1,5 @@
 const {isPrime} = require('./index.js');
 
-console.log(isPrime);
-
 if (! isPrime(3))
     process.exit(1);
 
