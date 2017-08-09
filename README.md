@@ -1,19 +1,13 @@
 # IsPrimeNumber - JavaScript
 
 ## Installation
-`npm install is-prime-number`
-
-## Usage
-Node.JS:
-```javascript
-const {isPrime} = require('is-prime-number');
-console.log( isPrime(7) ); // true
-console.log( isPrime(20) ); // false
+```bash
+npm install is-prime-number
 ```
 
-ES6:
+## Usage
 ```javascript
-import {isPrime} from 'is-prime-number';
+const {isPrime} = require('is-prime-number');
 console.log( isPrime(7) ); // true
 console.log( isPrime(20) ); // false
 ```

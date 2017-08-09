@@ -1,4 +1,4 @@
-const {isPrime} = require('./index.js');
+const isPrime = require('./index.js');
 
 if (! isPrime(3))
     process.exit(1);
