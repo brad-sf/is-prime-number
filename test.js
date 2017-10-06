@@ -1,15 +1,12 @@
+const tap = require('tap');
 const isPrime = require('./index.js');
 
-if (! isPrime(3))
-    process.exit(1);
+const primes = [2,3,7,11,103,197,199];
+primes.forEach((i) => {
+	tap.ok(isPrime(i));
+});
 
-if (! isPrime(7))
-    process.exit(1);
-
-if (isPrime(1))
-    process.exit(1);
-
-if (isPrime(4))
-    process.exit(1);
-
-process.exit(0);
+const nonPrimes = [1,4,100,'foo',true, {bar:1}, []];
+nonPrimes.forEach((i) => {
+	tap.notOk(isPrime(i));
+});

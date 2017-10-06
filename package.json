@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/bradleyflood/is-prime-number/issues"
   },
-  "homepage": "https://github.com/bradleyflood/is-prime-number#readme"
+  "homepage": "https://github.com/bradleyflood/is-prime-number#readme",
+  "devDependencies": {
+    "tap": "^10.7.2"
+  }
 }
