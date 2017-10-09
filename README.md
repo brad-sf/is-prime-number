@@ -8,7 +8,7 @@ npm install is-prime-number
 
 ## Syntax
 ```javascript
-isPrime(value)
+isPrime(value);
 ```
 ### Parameters
 - `value` The value to be tested for being a prime number.
