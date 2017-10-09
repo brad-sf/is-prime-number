@@ -1,22 +1,22 @@
-# IsPrimeNumber - JavaScript
+# is-prime-number
 
-The `is-prime-number` module determines whether the passed value is a prime number.
+Node.js JavaScript module to determine whether the passed value is a prime number.
 
 ```bash
 npm install is-prime-number
 ```
 
-### Syntax
+## Syntax
 ```javascript
 isPrime(value)
 ```
-#### Parameters
+### Parameters
 - `value` The value to be tested for being a prime number.
 
-#### Return value
+### Return value
 A `boolean` indicating whether or not the given value is a prime number.
 
-### Examples
+## Examples
 ```javascript
 const isPrime = require('is-prime-number');
 
